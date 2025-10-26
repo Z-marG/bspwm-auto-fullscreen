@@ -1,4 +1,4 @@
-# bspwm-auto-fullscreen
+# BSPWM auto fullscreen
 A simple Auto-fullscreen and EWW toggling script for the bspwm window manager
 
 Just like the name says, this is a script i worked on 100% for myself (read carefully, "LIKE") to make nodes/windows in the BSPWM window manager automatically fullscreen and toggle Elkowars Wacky Widgets off
