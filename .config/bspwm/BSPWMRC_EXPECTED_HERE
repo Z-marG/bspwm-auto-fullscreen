@@ -1,4 +1,5 @@
 #!/bin/bash
 
 # put this in your bspwmrc file to use this script on launch
-pkill autofullscreen. || true && $HOME/.config/bspwm/scripts/autofullscreen.sh -d &
+pkill autofullscreen. || true && $HOME/.config/bspwm/scripts/autofullscreen.sh &
+# parameters available: -d -l
