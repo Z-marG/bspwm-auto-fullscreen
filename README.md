@@ -8,13 +8,6 @@ You are free to inspire yourself and do the programmers best trick using my scri
 ### thanks for checking it out! 🙏
 
 ---
-
-Known "issues":
-1. unused (but MAYBE to be used) read node state function near the bspc subscribe loop, suggest code to make it useful or remove it
-2. foreign node type case path is pretty much useless since the subscribe command reads off an array of statically defined events, still defined it as if it was dynamic for good practice so suggest removal if needed
-3. pretty much assumes you have `focus_follows_pointer` to `true` and might need it to work as expected, need to account for that.
-
----
 # INSTALLATION
 ```bash
 git clone https://github.com/Z-marG/bspwm-auto-fullscreen.git
@@ -23,3 +16,10 @@ mkdir -p ~/.config/bspwm/scripts/
 cp .config/bspwm/scripts/autofullscreen.sh ~/.config/bspwm/scripts/
 echo && echo 'pkill autofullscreen. || true && $HOME/.config/bspwm/scripts/autofullscreen.sh -d &' >> ~/.config/bspwm/bspwmrc
 ```
+
+---
+
+Known "issues":
+1. unused (but MAYBE to be used) read node state function near the bspc subscribe loop, suggest code to make it useful or remove it
+2. foreign node type case path is pretty much useless since the subscribe command reads off an array of statically defined events, still defined it as if it was dynamic for good practice so suggest removal if needed
+3. pretty much assumes you have `focus_follows_pointer` to `true` and might need it to work as expected, need to account for that.
