@@ -14,7 +14,7 @@ git clone https://github.com/Z-marG/bspwm-auto-fullscreen.git
 cd bspwm-auto-fullscreen
 mkdir -p ~/.config/bspwm/scripts/
 cp .config/bspwm/scripts/autofullscreen.sh ~/.config/bspwm/scripts/
-echo && echo 'pkill autofullscreen. || true && $HOME/.config/bspwm/scripts/autofullscreen.sh -d &' >> ~/.config/bspwm/bspwmrc
+echo && echo 'pkill autofullscreen. || true && $HOME/.config/bspwm/scripts/autofullscreen.sh &' >> ~/.config/bspwm/bspwmrc
 ```
 
 ---
