@@ -5,7 +5,7 @@ Just like the name says, this is a script i worked on 100% for myself (read care
 if it is in fullscreen it toggles it back on otherwise, it is a script mostly made for fun, lots of idiosyncratic logic happens here and assumptions that only make sense if you were me working on this.
 
 You are free to inspire yourself and do the programmers best trick using my script and i would be more than happy to accept optimization/stylistic/philosophical notes ontop of my project, and... 
-**thanks for checking it out!**
+### thanks for checking it out! 🙏
 
 ---
 
